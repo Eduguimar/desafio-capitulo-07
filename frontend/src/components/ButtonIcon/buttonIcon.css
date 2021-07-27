@@ -1,0 +1,56 @@
+.btn-container {
+	margin-top: 20px;
+}
+
+.btn-container button {
+	margin: 28px auto 10px auto;
+	border-radius: 5px;
+}
+
+.btn h6 {
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 5px 30px;
+}
+
+.btn-phrase {
+	color: #585858;
+	font-size: 18px;
+}
+
+@media (min-width: 576px) {
+	.btn-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: baseline;
+	}
+
+	.btn-container button {
+		margin: 40px 30px;
+		border-radius: 5px;
+	}
+
+	.btn h6 {
+		font-size: 18px;
+	}
+
+	.btn-phrase {
+		color: #585858;
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 768px) {
+	.btn-container {
+		justify-content: flex-start;
+		padding-left: 20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.btn-container {
+		padding-left: 40px;
+	}
+}

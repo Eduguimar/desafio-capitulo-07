@@ -32,3 +32,20 @@
 	color: #00285f;
 	font-weight: bold;
 }
+
+@media (min-width: 768px) {
+	.main-menu {
+		width: 460px;
+		justify-content: flex-end;
+	}
+
+	.main-menu a {
+		padding: 15px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.main-menu {
+		width: 650px;
+	}
+}
