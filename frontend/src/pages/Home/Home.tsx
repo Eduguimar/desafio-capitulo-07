@@ -1,6 +1,7 @@
 import './home.css';
 import { ReactComponent as CarImage } from '../../assets/images/main-car.svg';
 import ButtonIcon from '../../components/ButtonIcon/ButtonIcon';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
 	return (
@@ -20,7 +21,9 @@ export default function Home() {
 				</div>
 			</div>
 			<div>
-				<ButtonIcon />
+				<Link to="/products">
+					<ButtonIcon />
+				</Link>
 			</div>
 		</div>
 	);

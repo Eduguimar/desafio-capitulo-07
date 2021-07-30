@@ -1,0 +1,33 @@
+.btn-content {
+	text-align: center;
+}
+
+.btn-content button {
+	border-radius: 5px;
+	width: 257px;
+}
+
+.btn h6 {
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 5px 30px;
+}
+
+@media (min-width: 576px) {
+	.btn-content {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: baseline;
+	}
+
+	.btn-content button {
+		margin: 40px 30px;
+		border-radius: 5px;
+	}
+
+	.btn h6 {
+		font-size: 18px;
+	}
+}
